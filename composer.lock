@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "0f058e401f5c2a01599156fabb89c0dd",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1397,6 +1397,63 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "spatie/laravel-query-builder",
+            "version": "1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-query-builder.git",
+                "reference": "d5b322aedc95e0c06dd10151b6d881b06dbb187f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-query-builder/zipball/d5b322aedc95e0c06dd10151b6d881b06dbb187f",
+                "reference": "d5b322aedc95e0c06dd10151b6d881b06dbb187f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.8.0",
+                "illuminate/http": "~5.8.0",
+                "illuminate/support": "~5.8.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~3.8.0",
+                "phpunit/phpunit": "^7.5|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\QueryBuilder\\QueryBuilderServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\QueryBuilder\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Vanderbist",
+                    "email": "alex@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily build Eloquent queries from API requests",
+            "homepage": "https://github.com/spatie/laravel-query-builder",
+            "keywords": [
+                "laravel-query-builder",
+                "spatie"
+            ],
+            "time": "2019-02-27T14:00:19+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
